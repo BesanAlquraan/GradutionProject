@@ -3,9 +3,9 @@ Smart Personal Finance Management System
 1️⃣ Overview | 
 This project is a full-stack local graduation project, designed to manage personal finances smartly.
 It includes:
-- Frontend: Flutter (v3.13.6)
-- Backend: Spring Boot (v3.2.0)
-- Database: PostgreSQL (v15)
+- Frontend: Flutter (3.38.5) , Dart 3.10.4
+- Backend: Spring Boot ,java 17.0.12
+- Database:psql (PostgreSQL) 18.0
 - Fake Bank module for testing payments
 
 Note: This project is designed to run locally on your computer. It is not deployed online.
