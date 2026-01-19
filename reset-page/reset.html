@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Reset Password</title>
+</head>
+<body>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get("token");
+
+  if (token) {
+    window.location.href = "myapp://reset-password?token=" + token;
+  } else {
+    document.body.innerHTML = "Invalid reset link";
+  }
+</script>
+</body>
+</html>
